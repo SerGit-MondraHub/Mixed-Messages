@@ -2,11 +2,11 @@
 
 //Objeto que contiene palabras para armar la frase...
 const palabras =
-   [ {
+   [{
         //test:'test1',
-        ['Tu', 'tu pareja', 'tu familia', 'tu mascota'],
-        ['conseguira', 'perdera', 'tendra','robara'],
-        ['un empleo', 'un carro', 'un diente', 'una casa'],
+        sujetos: ['Tu', 'tu pareja', 'tu familia', 'tu mascota'],
+        verbos: ['conseguira', 'perdera', 'tendra','robara'],
+        objetos: ['un empleo', 'un carro', 'un diente', 'una casa'],
         /*start()
             {
                 for (let array in palabras)
