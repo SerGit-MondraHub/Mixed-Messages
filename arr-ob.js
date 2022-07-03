@@ -40,7 +40,7 @@ function start()
 
 //start();
 
-console.log(palabras.forEach(array=> array));
+console.log(palabras[0]);
 
 //Funcion randomizadora...
 /*function random (array)
