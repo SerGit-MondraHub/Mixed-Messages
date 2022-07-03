@@ -15,10 +15,6 @@ function random (array)
     {
         let word;
         word= (array[Math.floor(Math.random()*array.length)]);
-        /*if(word===Tú)
-            {frase.push(word)}
-        else
-            {frase.push(word)}*/
         frase.push(word);
     }
 
