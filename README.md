@@ -1,15 +1,15 @@
 GALLETA DE LA SUERTE
 =====
 
-Descrpcion
+Descripción:
 -----
-¿Quieres conocer que te depara el destino?
-    Prueba este juego para conocer tu futuro
+¿Quieres conocer que te depara el destino?  
+Prueba este juego para conocer tu futuro
 
-Technologies
+Technologia:
 ------
 JavaScript
 
-Launch
+Ejecutar con:
 ------
 Node.js
