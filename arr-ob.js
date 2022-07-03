@@ -2,19 +2,16 @@
 
 //Objeto que contiene palabras para armar la frase...
 const palabras =
-    {
-        /*test:'test1',
-        sujetos:['Tu', 'tu pareja', 'tu familia', 'tu mascota'],
-        verbos:['conseguira', 'perdera', 'tendra','robara'],
-        objetos:['un empleo', 'un carro', 'un diente', 'una casa'],*/
-        start()
+   [{
+        //test:'test1',
+        sujetos: ['Tu', 'tu pareja', 'tu familia', 'tu mascota'],
+        verbos: ['conseguira', 'perdera', 'tendra','robara'],
+        objetos: ['un empleo', 'un carro', 'un diente', 'una casa'],
+        /*start()
             {
-                sujetos:['Tu', 'tu pareja', 'tu familia', 'tu mascota'],
-        verbos:['conseguira', 'perdera', 'tendra','robara'],
-        objetos:['un empleo', 'un carro', 'un diente', 'una casa'],
                 for (let array in palabras)
                     {
-                        console.log(palabras[0])
+                        console.log(palabras[1])
                         console.log(palabras.sujetos);
                         console.log(palabras.sujetos[0]);
                         //POR CADA ELEMENTO:
@@ -23,28 +20,27 @@ const palabras =
                         console.log(palabras.sujetos[0]);
                         //random(elemento);
                     }
-            }
+            }*/
         /*random(array)
             {
                 console.log(this.array[Math.round(Math.random()*this.array.length)])
             }*/
-    }
+    }]
 
-//console.log(palabras.sujetos[0]);
 
-/*function start()
+function start()
 {
-    console.log(palabras.sujetos[0]);
-    for (let array in palabras)
+    for (let array of palabras)
         {
-            console.log(array);
-            console.log(palabras.test[0]);
-            console.log(palabras.array[0]);
-            //random(elemento);
+          console.log(palabras);
+          console.log(array);
+          console.log(palabras.array);
         }
-}*/
+}
 
-palabras.start();
+//start();
+
+console.log(palabras[0]);
 
 //Funcion randomizadora...
 /*function random (array)
