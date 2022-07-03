@@ -8,18 +8,22 @@ const palabras =
         objetos:['un empleo', 'un carro', 'un diente', 'una casa'],
     }
 
-//Funcion randomizadora...
+function iteration()   
+    {
+        for(let elem in palabras)
+            {
+                console.log(palabras[elem]);
+            }
+    }
+
+iteration();
+
+
+/*Funcion randomizadora...
 function random (array)
     {
         console.log(palabras.array[Math.round(Math.random()*palabras.array.length)])
     }
 
-function iteration()
-    {
-        for(let elem in palabras)
-            {
-                console.log(elem);
-            }
-    }
-
-iteration();
+let elementos;
+*/
