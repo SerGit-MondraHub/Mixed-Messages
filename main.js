@@ -9,9 +9,9 @@ const frase =
     }
 
 //Funcion randomizadora...
-function random ()
+function random (array)
     {
-        console.log(Math.random())
+        console.log(array[Math.round(Math.random()*array.length)])
     }
 
-random();
+random(frase.sujetos);
