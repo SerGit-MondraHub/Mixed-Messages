@@ -3,9 +3,9 @@
 //Objeto que contiene palabras para armar la frase...
 const palabras =
     {
-        sujetos:['Tu', 'tu pareja', 'tu familia', 'tu mascota'],
-        verbos:['comprara', 'perdera', 'robara'],
-        objetos:['un empleo', 'un carro', 'un diente', 'una casa', 'dinero'],
+        sujetos:['Tu', 'tu pareja', 'tu familia', 'tu mascota', 'tu amig@'],
+        verbos:['comprara', 'perdera', 'robara', 'quemara', 'vendera','cambiara'],
+        objetos:['un empleo', 'un carro', 'un diente', 'sexo', 'una casa', 'dinero', 'un(a) amante'],
     }
 
 function iteration()   
@@ -22,8 +22,5 @@ iteration();
 
 //Funcion randomizadora...
 function random (array)
-    {
-        //console.log(array[Math.ceil(Math.random()*array.length)])
-        console.log(array.length);
-    }
+    {console.log(array[Math.floor(Math.random()*array.length)])}
 
