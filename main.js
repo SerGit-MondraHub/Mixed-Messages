@@ -3,7 +3,7 @@
 //Objeto que contiene palabras para armar la frase...
 const palabras =
     {
-        sujetos:['Tú ', 'tu pareja ', 'tu familia ', 'tu mascota ', 'tu amig@ '],
+        sujetos:['Tú ', 'Tu pareja ', 'Tu familia ', 'Tu mascota ', 'Tu amig@ '],
         verbos:['comprara', 'perdera', 'robara', 'quemara', 'vendera','cambiara'],
         objetos:[' empleo', ' un carro', ' un diente', ' sexo', ' una casa', ' dinero', ' un(a) amante'],
     }
@@ -21,6 +21,7 @@ function random (array)
 //Funcion de iteracion...
 function iteration()   
     {
+        let galleta;
         for(let elem in palabras)
             {
                 //console.log(palabras[elem]);
@@ -29,10 +30,11 @@ function iteration()
         if(frase[0]==='Tú ')//CONJUGACION DE VERBOS PARA "Tú"
             {
                 frase.splice(2,0,'s');
-                console.log(frase.join(""));//MENSAJE FINAL CON "Tú"
+                galleta= frase.join("");//FRASE FINAL CON "Tú"
             }    
         else    
-            {console.log(frase.join(""));}//MENSAJE FINAL SIN CONJUGACION
+            {galleta= frase.join("");}//FRASE FINAL SIN CONJUGACION
+        console.log(`Tu galleta de la suerte dice: "${galleta}"`);//MENSAJE COMPUESTO
     }
 
 iteration();
