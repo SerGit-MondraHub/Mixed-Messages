@@ -3,18 +3,15 @@
 //Objeto que contiene palabras para armar la frase...
 const palabras =
     {
-        /*test:'test1',
+        //test:'test1',
         sujetos:['Tu', 'tu pareja', 'tu familia', 'tu mascota'],
         verbos:['conseguira', 'perdera', 'tendra','robara'],
-        objetos:['un empleo', 'un carro', 'un diente', 'una casa'],*/
+        objetos:['un empleo', 'un carro', 'un diente', 'una casa'],
         start()
             {
-                sujetos:['Tu', 'tu pareja', 'tu familia', 'tu mascota'],
-        verbos:['conseguira', 'perdera', 'tendra','robara'],
-        objetos:['un empleo', 'un carro', 'un diente', 'una casa'],
                 for (let array in palabras)
                     {
-                        console.log(palabras[0])
+                        console.log(palabras[1])
                         console.log(palabras.sujetos);
                         console.log(palabras.sujetos[0]);
                         //POR CADA ELEMENTO:
