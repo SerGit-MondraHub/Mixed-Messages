@@ -3,7 +3,7 @@
 //Objeto que contiene palabras para armar la frase...
 const palabras =
     {
-        sujetos:['Tú ', 'Tu pareja ', 'Tu familia ', 'Tu mascota ', 'Tu amig@ ','Tu jefe'],
+        sujetos:['Tú ', 'Tu pareja ', 'Tu familia ', 'Tu mascota ', 'Tu amig@ ','Tu jefe '],
         verbos:['comprará', 'perderá', 'robará', 'olvidará', 'venderá','cambiará','encontrará'],
         objetos:[' empleo', ' un carro', ' un diente', ' un gato', ' una casa', ' dinero', ' un(a) amante',],
     }
