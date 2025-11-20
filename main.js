@@ -5,7 +5,7 @@ const palabras =
     {
         sujetos:['Tú ', 'Tu pareja ', 'Tu familia ', 'Tu mascota ', 'Tu amig@ ','Tu jefe'],
         verbos:['comprará', 'perderá', 'robará', 'olvidará', 'venderá','cambiará','encontrará'],
-        objetos:[' empleo', ' un carro', ' un diente', ' sexo', ' una casa', ' dinero', ' un(a) amante',],
+        objetos:[' empleo', ' un carro', ' un diente', ' un gato', ' una casa', ' dinero', ' un(a) amante',],
     }
 
 let frase=[]//ARRAY QUE CONTENDRA LAS 3 PALABRAS
